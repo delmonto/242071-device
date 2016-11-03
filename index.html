@@ -8,21 +8,23 @@
 
 <body>
   <header class="main-header">
-    <div>
+    <div class="header-top">
       <div class="logo">
-        <img src="img/logo.png" width="150" height="50" alt="«Девайс»">
+        <a href="#">Девайс</a>
       </div>
-      <div class="container">
-        <div class="search">
-          <form class="search-form">
-            <img src="img/search-icn.png" width="16" height="16" alt="Поиск по сайту">
-            <input type="text" name="search" placeholder="Поиск по сайту">
-          </form>
-        </div>
-        <div class="login">
-          <img src="img/login-icn.png" width="16" height="16" alt="Войти">
-          <a href="#">Войти</a>
-        </div>
+    </div>
+    <div class="header-middle">
+      <div class="search">
+        <form class="search-form">
+          <img src="img/search-icn.png" width="16" height="16" alt="Поиск по сайту">
+          <input type="text" name="search" placeholder="Поиск по сайту">
+        </form>
+      </div>
+      <div class="login">
+        <img src="img/login-icn.png" width="16" height="16" alt="Войти">
+        <a href="#">Войти</a>
+      </div>
+      <div class="compare-cart">
         <div class="compare">
           <img src="img/compare-icn.png" width="16" height="16" alt="Сравнить">
           <a href="#">Сравнить</a>
@@ -32,24 +34,20 @@
           <a href="#">Корзина</a>
         </div>
       </div>
-      <nav class="main-navigation">
-        <ul>
-          <li>
-            <a href="#">Каталог товаров</a>
-            <img src="img/plus-icn.png" width="16" height="16" alt="Каталог товаров">
-          </li>
-          <li>
-            <a href="#">Доставка</a>
-          </li>
-          <li>
-            <a href="#">Гарантия</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
     </div>
+    <nav class="header-bottom">
+      <div class="catalog">
+        <a href="#">Каталог товаров</a>
+        <img src="img/plus-icn.png" width="16" height="16" alt="Каталог товаров">
+      </div>
+      <div class="delivery-warranty">
+        <a href="#">Доставка</a>
+        <a href="#">Гарантия</a>
+      </div>
+      <div class="contacts">
+        <a href="#">Контакты</a>
+      </div>
+    </nav>
   </header>
   <main class="container">
     <div class="slider">
@@ -61,11 +59,11 @@
         <p>
           Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
         </p>
-        <div>
+        <div class="slider-control">
           <div class="slider-more">
             <a href="#">Подробнее</a>
           </div>
-          <div class="slider-control">
+          <div class="slider-pagination">
             <img src="img/slider-pg-active.png" width="23" height="23" alt="">
             <img src="img/slider-pg.png" width="23" height="23" alt="">
             <img src="img/slider-pg.png" width="23" height="23" alt="">
@@ -102,28 +100,34 @@
     <div class="categories">
       <div class="categories-item">
         <div class="categories-item-icn">
-          <img src="img/category-vr.png" width="160" height="160" alt="Виртуальная реальность">
-          <a href="#">Виртуальная реальность</a>
+          <a href="#">
+            <img src="img/category-vr.png" width="160" height="160" alt="Виртуальная реальность"> Виртуальная реальность
+          </a>
         </div>
         <div class="categories-item-icn">
-          <img src="img/monopod.png" width="160" height="160" alt="Моноподы для селфи">
-          <a href="#">Моноподы для селфи</a>
+          <a href="#">
+            <img src="img/monopod.png" width="160" height="160" alt="Моноподы для селфи"> Моноподы для селфи
+          </a>
         </div>
         <div class="categories-item-icn">
-          <img src="img/action-cameras.png" width="160" height="160" alt="Экшн-камеры">
-          <a href="#">Экшн-камеры</a>
+          <a href="#">
+            <img src="img/action-cameras.png" width="160" height="160" alt="Экшн-камеры"> Экшн-камеры
+          </a>
         </div>
         <div class="categories-item-icn">
-          <img src="img/fitness-bracelets.png" width="160" height="160" alt="Фитнесс браслеты">
-          <a href="#">Фитнесс браслеты</a>
+          <a href="#">
+            <img src="img/fitness-bracelets.png" width="160" height="160" alt="Фитнесс браслеты"> Фитнесс браслеты
+          </a>
         </div>
         <div class="categories-item-icn">
-          <img src="img/smart-watches.png" width="160" height="160" alt="Умные часы">
-          <a href="#">Умные часы</a>
+          <a href="#">
+            <img src="img/smart-watches.png" width="160" height="160" alt="Умные часы"> Умные часы
+          </a>
         </div>
         <div class="categories-item-icn">
-          <img src="img/drones.png" width="160" height="160" alt="Квадрокоптеры">
-          <a href="#">Квадрокоптеры</a>
+          <a href="#">
+            <img src="img/drones.png" width="160" height="160" alt="Квадрокоптеры"> Квадрокоптеры
+          </a>
         </div>
       </div>
     </div>
@@ -161,7 +165,7 @@
       <img src="img/gopro-logo.png" width="260" height="100" alt="GoPro">
       <img src="img/vive.png" width="260" height="100" alt="Vive">
     </div>
-    <div>
+    <div class="about-contacts">
       <div class="about-us">
         <h2 class="about-us-heading">О нас</h2>
         <p class="about-us-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
@@ -188,15 +192,31 @@
     </div>
   </main>
   <footer class="main-footer">
-    <div>
-      <section class="footer-left-column">
-        <img src="img/logo-footer.png" width="163" height="36" alt="«Девайс»">
-        <p class="footer-address">
-          г. Москва, ул. Строителей, 15
-        </p>
+    <div class="container">
+      <section class="footer-top">
+        <div class="footer-top-logo">
+          Девайс
+        </div>
+        <div class="footer-top-menu">
+          <div class="footer-login">
+            <img src="img/login-icn.png" width="16" height="16" alt="Войти">
+            <a href="#">Войти</a>
+          </div>
+          <div class="footer-compare">
+            <img src="img/compare-icn.png" width="16" height="16" alt="Сравнить">
+            <a href="#">Сравнить</a>
+          </div>
+          <div class="footer-cart">
+            <img src="img/cart-icn.png" width="16" height="16" alt="Корзина">
+            <a href="#">Корзина</a>
+          </div>
+        </div>
       </section>
-      <section class="footer-center-column">
-        <div class="footer-nav">
+      <section class="footer-middle">
+        <div class="footer-middle-address">
+          г. Москва, ул. Строителей, 15
+        </div>
+        <div class="footer-middle-nav">
           <ul>
             <li>
               <a href="#">Доставка</a>
@@ -209,7 +229,12 @@
             </li>
           </ul>
         </div>
-        <div class="footer-social">
+        <div class="footer-middle-phone">
+          Тел.: +7 (495) 495-95-95
+        </div>
+      </section>
+      <section class="footer-bottom">
+        <div class="footer-bottom-social">
           <a href="#">
             <img src="img/social-btn-fb.svg" width="39" height="38" alt="Facebook">
           </a>
@@ -220,25 +245,6 @@
             <img src="img/social-btn-vk.svg" width="39" height="38" alt="Вконтакте">
           </a>
         </div>
-      </section>
-      <section>
-        <div>
-        <div class="footer-login">
-          <img src="img/login-icn.png" width="16" height="16" alt="Войти">
-          <a href="#">Войти</a>
-        </div>
-        <div class="footer-compare">
-          <img src="img/compare-icn.png" width="16" height="16" alt="Сравнить">
-          <a href="#">Сравнить</a>
-        </div>
-        <div class="footer-cart">
-          <img src="img/cart-icn.png" width="16" height="16" alt="Корзина">
-          <a href="#">Корзина</a>
-        </div>
-      </div>
-      <div class="footer-phone">
-        Тел.: +7 (495) 495-95-95
-      </div>
       </section>
     </div>
   </footer>
