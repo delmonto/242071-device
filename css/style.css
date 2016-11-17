@@ -211,26 +211,24 @@ h2 {
   float: right;
 }
 
-.main-content-header {
-
+.filter-column {
+  float: left;
+  border: 1px solid red;
+  margin-left: 60px;
+  width: 268px;
 }
 
 .filter-column-header {
   background-color: #DBDBDB;
-  float: left;
-  padding-left: 60px;
-  width: 268px;
-
 }
 
-.main-content {
+.filter-column-form {
+  background-color: #EFEFEF;
+}
+
+.goods-column {
   width: 760px;
-  float: left;
-}
-
-.main-content-header {
-  margin: 0 auto;
-    background-color: red;
+  float: right;
 }
 
 .sort-header {
@@ -252,15 +250,7 @@ h2 {
   float: right;
 }
 
-.filter-form {
-  background-color: #EFEFEF;
-  float: left;
-  border: 1px solid red;
-}
-
 .goods {
-  float: left;
-  border: 1px solid red;
 }
 
 .goods-item {
@@ -277,7 +267,6 @@ h2 {
   width: 760px;
   margin-top: 50px;
   margin-bottom: 100px;
-  background-color: yellow;
 }
 
 .pagination-back {
