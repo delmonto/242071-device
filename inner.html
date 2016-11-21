@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>«Девайс»</title>
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
 </head>
 
 <body>
@@ -225,17 +226,17 @@
           </div>
         </div>
         <div class="pagination clearfix">
-          <div class="pagination-back">
-            <a href="#">Назад</a>
-          </div>
-          <div class="pagination-pages">
-            1
+          <!-- <div class="pagination-back"> -->
+            <a class="back" href="#">Назад</a>
+          <!-- </div> -->
+          <!-- <div class="pagination-pages"> -->
+            <span>1</span>
             <a href="#">2</a>
             <a href="#">3</a>
-          </div>
-          <div class="pagination-forward">
-            <a href="#">Вперед</a>
-          </div>
+          <!-- </div> -->
+          <!-- <div class="pagination-forward"> -->
+            <a class="next" href="#">Вперед</a>
+          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -281,9 +282,9 @@
       </section>
       <section class="footer-bottom">
         <div class="footer-bottom-social">
-          <a href="#">Facebook</a>
-          <a href="#">Instagram</a>
-          <a href="#">VK</a>
+          <div class="social-fb"><a href="#">Facebook</a></div>
+          <div class="social-insta"><a href="#">Instagram</a></div>
+          <div class="social-vk"><a href="#">VK</a></div>
         </div>
       </section>
     </div>

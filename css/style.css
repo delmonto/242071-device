@@ -199,12 +199,33 @@ h2 {
   float: right;
 }
 
+.footer-login {
+  display: inline;
+}
+
+.footer-compare {
+  display: inline;
+}
+
+.footer-cart {
+  display: inline;
+}
+
 .footer-middle-address {
   float: left;
 }
 
-.footer-middle-nav {
+.footer-middle-nav{
   float: left;
+  text-transform: uppercase;
+}
+
+.footer-middle-nav ul{
+  list-style: none;
+}
+
+.footer-middle-nav ul li{
+  display: inline;
 }
 
 .footer-middle-phone {
@@ -265,14 +286,54 @@ h2 {
 
 .pagination {
   width: 760px;
+  height: 70px;
   margin-top: 50px;
   margin-bottom: 100px;
+  background-color: #EBEBEB;
+  margin: 30px auto;
 }
 
-.pagination-back {
+.pagination a,
+.pagination span {
+  display: inline-block;
+  height: 40px;
+  min-width: 20px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pagination .back {
+  float: left;
+}
+
+.pagination .next {
+  float: right;
+}
+
+/*.pagination-back {
   float: left;
 }
 
 .pagination-forward {
   float: right;
+}*/
+
+.footer-bottom-social {
+
+}
+
+.social-fb {
+  display: inline-block;
+}
+
+.social-insta {
+  display: inline-block;
+}
+
+.social-vk {
+  display: inline-block;
 }
