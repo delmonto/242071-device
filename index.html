@@ -3,54 +3,49 @@
 
 <head>
   <meta charset="utf-8">
-  <title>«Девайс»</title>
-  <link href="css/style.css" rel="stylesheet">
+  <title>«Девайс» Главная</title>
   <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header class="main-header">
     <div class="container">
-      <div class="header-top">
+      <div class="header-top content-padding">
         <div class="logo">
-          <a href="#">DEVICE</a>
+          <a href="index.html">DEVICE</a>
         </div>
       </div>
-      <div class="header-middle clearfix">
+      <div class="header-middle content-padding clearfix">
         <div class="search">
           <form class="search-form">
-            <input type="text" name="search" placeholder="Поиск по сайту">
+            <input class="search-input" type="text" name="search" placeholder="Поиск по сайту">
           </form>
         </div>
-        <div class="login">
-          <a href="#">Войти</a>
-        </div>
-        <div class="compare-cart">
-          <div class="compare">
-            <a href="#">Сравнить</a>
+        <div class="header-middle-nav">
+          <div class="login">
+            <a class="login-userinfo" href="#">Войти</a>
           </div>
-          <div class="cart">
-            <a href="#">Корзина</a>
+          <div class="compare-cart">
+            <a class="compare" href="#">Сравнить</a>
+            <a class="cart" href="#">Корзина</a>
           </div>
         </div>
       </div>
-      <div class="header-bottom clearfix">
-        <div class="catalog">
-          <a href="inner.html">Каталог товаров</a>
+      <div class="header-bottom-menu content-padding clearfix">
+        <div class="menu-catalog">
+          <a class="menu-catalog-item" href="#">Каталог товаров</a>
         </div>
-        <div class="delivery-warranty">
-          <div class="delivery">
-            <a href="#">Доставка</a>
-          </div>
-          <div class="warranty">
-            <a href="#">Гарантия</a>
-          </div>
-        </div>
-        <div class="contacts">
-          <a href="#">Контакты</a>
+        <div class="menu-nav">
+          <ul class="menu-nav-items">
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Гарантия</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
         </div>
       </div>
     </div>
+
   </header>
   <main class="container">
     <div class="slider clearfix">
@@ -58,13 +53,13 @@
         <img src="img/slider-1.png" width="384" height="486" alt="Самая длинная палка для селфи">
       </div>
       <div class="slider-desc">
-        <p class="slider-heading">Делай селфи, как Бен Стиллер!</p>
-        <p>
+        <p class="slider-heading content-header">Делай селфи, как Бен Стиллер!</p>
+        <p class="description">
           Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
         </p>
         <div class="slider-control clearfix">
           <div class="slider-more">
-            <a href="#">Подробнее</a>
+            <a class="button" href="#">Подробнее</a>
           </div>
           <div class="slider-pagination">
           </div>
@@ -101,7 +96,7 @@
       <div class="categories-item">
         <a href="#">
           <div class="categories-item-icn">
-            <img src="img/popular-1.png" width="97" height="55" alt="Виртуальная реальность">
+            <img src="img/popular-1.png" width="160" height="160" alt="Виртуальная реальность">
           </div>
           <div class="categories-item-text">
             Виртуальная реальность
@@ -111,7 +106,7 @@
       <div class="categories-item">
         <a href="#">
           <div class="categories-item-icn">
-            <img src="img/popular-2.png" width="86" height="117" alt="Моноподы для селфи">
+            <img src="img/popular-2.png" width="160" height="160" alt="Моноподы для селфи">
           </div>
           <div class="categories-item-text">
             Моноподы для селфи
@@ -121,7 +116,7 @@
       <div class="categories-item">
         <a href="#">
           <div class="categories-item-icn">
-            <img src="img/popular-3.png" width="71" height="87" alt="Экшн-камеры">
+            <img src="img/popular-3.png" width="160" height="160" alt="Экшн-камеры">
           </div>
           <div class="categories-item-text">
             Экшн-камеры
@@ -131,7 +126,7 @@
       <div class="categories-item">
         <a href="#">
           <div class="categories-item-icn">
-            <img src="img/popular-4.png" width="107" height="65" alt="Фитнесс браслеты">
+            <img src="img/popular-4.png" width="160" height="160" alt="Фитнесс браслеты">
           </div>
           <div class="categories-item-text">
             Фитнесс браслеты
@@ -139,9 +134,9 @@
         </a>
       </div>
       <div class="categories-item">
-        <a href="#">
+        <a class="categories-item-link" href="#">
           <div class="categories-item-icn">
-            <img src="img/popular-5.png" width="56" height="98" alt="Умные часы">
+            <img src="img/popular-5.png" width="160" height="160" alt="Умные часы">
           </div>
           <div class="categories-item-text">
             Умные часы
@@ -151,7 +146,7 @@
       <div class="categories-item">
         <a href="#">
           <div class="categories-item-icn">
-            <img src="img/popular-6.png" width="132" height="69" alt="Квадрокоптеры">
+            <img src="img/popular-6.png" width="160" height="160" alt="Квадрокоптеры">
           </div>
           <div class="categories-item-text">
             Квадрокоптеры
@@ -160,22 +155,20 @@
       </div>
     </div>
     <div class="services clearfix">
+
       <div class="services-control">
-        <ul>
-          <li>
-            Доставка
-          </li>
-          <li>
-            <a href="#">Гарантия</a>
-          </li>
-          <li>
-            <a href="#">Кредит</a>
-          </li>
+        <input type="radio" id="services-btn-1" name="toggle" hidden checked>
+        <input type="radio" id="services-btn-2" name="toggle" hidden>
+        <input type="radio" id="services-btn-3" name="toggle" hidden>
+        <ul class="services-control-buttons">
+          <li><label class="services-button-active" for="services-btn-1">Доставка</label></li>
+          <li><label class="services-button" for="services-btn-2">Гарантия</label></li>
+          <li><label class="services-button" for="services-btn-3">Кредит</label></li>
         </ul>
       </div>
       <div class="services-desc">
         <div class="services-desc-text">
-          <h2 class="services-desc-heading">
+          <h2 class="content-header">
             Доставка
           </h2>
           <p class="services-desc-text">
@@ -188,14 +181,14 @@
       </div>
     </div>
     <div class="brands">
-      <img src="img/logo-1.png" width="260" height="100" alt="dji">
-      <img src="img/logo-3-1.png" width="260" height="100" alt="SP Gadgets">
-      <img src="img/logo-3.png" width="260" height="100" alt="GoPro">
-      <img src="img/logo-4.png" width="260" height="100" alt="Vive">
+      <a class="brands-logo dji" href="#"><img src="img/logo-1.png" width="260" height="100" alt="dji"></a>
+      <a class="brands-logo spgadgets" href="#"><img src="img/logo-3-1.png" width="260" height="100" alt="SP Gadgets"></a>
+      <a class="brands-logo gopro" href="#"><img src="img/logo-3.png" width="260" height="100" alt="GoPro"></a>
+      <a class="brands-logo vive" href="#"><img src="img/logo-4.png" width="260" height="100" alt="Vive"></a>
     </div>
     <div class="about-contacts clearfix">
       <div class="about-us">
-        <h2 class="about-us-heading">О нас</h2>
+        <h2 class="content-header">О нас</h2>
         <p class="about-us-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
         <p class="about-us-text">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
         <ul class="about-us-list">
@@ -209,13 +202,13 @@
             ЖелДорЭкспедиция
           </li>
         </ul>
-        <a href="#">Подробнее о нас</a>
+        <a class="button" href="#">Подробнее о нас</a>
       </div>
       <div class="contacts">
-        <h2 class="contacts-heading">Контакты</h2>
+        <h2 class="content-header">Контакты</h2>
         <p class="about-us-text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-        <img src="img/map.jpg" width="560" height="222" alt="Карта">
-        <a href="#">Напишите нам</a>
+        <img class="map" src="img/map.jpg" width="560" height="222" alt="Карта">
+        <a class="button" href="#">Напишите нам</a>
       </div>
     </div>
   </main>
@@ -223,18 +216,12 @@
     <div class="container">
       <section class="footer-top clearfix">
         <div class="footer-top-logo">
-          <a href="#">DEVICE</a>
+          <a href="index.html">Device</a>
         </div>
         <div class="footer-top-menu">
-          <div class="footer-login">
-            <a href="#">Войти</a>
-          </div>
-          <div class="footer-compare">
-            <a href="#">Сравнить</a>
-          </div>
-          <div class="footer-cart">
-            <a href="#">Корзина</a>
-          </div>
+          <a class="footer-login" href="#">Войти</a>
+          <a class="footer-compare" href="#">Сравнить</a>
+          <a class="footer-cart" href="#">Корзина</a>
         </div>
       </section>
       <section class="footer-middle clearfix">
@@ -242,7 +229,7 @@
           г. Москва, ул. Строителей, 15
         </div>
         <div class="footer-middle-nav">
-          <ul>
+          <ul class="middle-nav-items">
             <li>
               <a href="#">Доставка</a>
             </li>
@@ -258,11 +245,22 @@
           Тел.: +7 (495) 495-95-95
         </div>
       </section>
-      <section class="footer-bottom">
+      <section class="footer-bottom clearfix">
+        <div class="footer-bottom-line">
+          &nbsp;
+        </div>
         <div class="footer-bottom-social">
-          <div class="social-fb"><a href="#">Facebook</a></div>
-          <div class="social-insta"><a href="#">Instagram</a></div>
-          <div class="social-vk"><a href="#">VK</a></div>
+          <a class="social-icon" href="#">
+            <img src="img/facebook.png" width="39" height="38" alt="Facebook">
+          </a>
+          <a class="social-icon" href="#">
+            <img src="img/insta.png" width="39" height="38" alt="Instagram">
+          </a>
+          <a class="social-icon" href="#">
+            <img src="img/twitter.png" width="38" height="38" alt="Twitter">
+          </a>
+        </div>
+        <div class="footer-bottom-logo">
         </div>
       </section>
     </div>
