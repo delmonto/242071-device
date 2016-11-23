@@ -536,6 +536,10 @@ h3 {
   padding-left: 0;
 }
 
+.form-color-list input[type="checkbox"] {
+  display: none;
+}
+
 .form-color-list li {
   padding-bottom: 10px;
 }
@@ -549,11 +553,19 @@ h3 {
 .form-color-list label::before {
   content: "";
   position: absolute;
-  width: 22px;
-  height: 22px;
+  width: 23px;
+  height: 23px;
   background-color: #dbdbdb;
   top: 0;
   left: 0;
+}
+
+.form-color-list input[type="checkbox"]:checked ~ label:before {
+  content: url("../img/checkbox-checked.png");
+}
+
+.form-bluetooth-list input[type="radio"] {
+  display: none;
 }
 
 .form-bluetooth-list {
@@ -573,14 +585,16 @@ h3 {
 }
 
 .form-bluetooth-list label::before {
-  content: "";
+  content: url("../img/radio-unchecked.png");
   position: absolute;
-  width: 22px;
-  height: 22px;
-  background-color: #dbdbdb;
+  width: 23px;
+  height: 23px;
   top: 0;
   left: 0;
-  border-radius: 50%;
+}
+
+.form-bluetooth-list input[type="radio"]:checked ~ label:before {
+  content: url("../img/radio-checked.png");
 }
 
 .goods {
