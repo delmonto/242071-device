@@ -25,6 +25,7 @@
 }
 
 body {
+  min-width: 1200px;
   font-family: "Open Sans Light", "Arial", serif;
   font-size: 15px;
   color: #464646;
@@ -112,7 +113,7 @@ h3 {
 }
 
 .search-input {
-  background: url(../img/sprite.png) no-repeat;
+  background: url("../img/sprite.png") no-repeat;
   background-position: -5px -151px;
   padding-left: 30px;
   outline: none;
@@ -242,19 +243,19 @@ h3 {
   width: 500px;
 }
 
-.menu-nav ul  {
+.menu-nav-items  {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.menu-nav ul li {
+.menu-nav-items li {
   display: inline;
   float: left;
   margin-right: 35px;
 }
 
-.menu-nav ul li:nth-child(3n) {
+.menu-nav-items li:nth-child(3n) {
   float: right;
   margin-right: 0;
 }
@@ -283,13 +284,13 @@ h3 {
   text-decoration: none;
 }
 
-.breadcrumbs ul  {
+.breadcrumbs-items  {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.breadcrumbs ul li {
+.breadcrumbs-items li {
   position: relative;
   display: inline;
   margin-right: 10px;
@@ -308,7 +309,6 @@ h3 {
   top: 8px;
   right: 0px;
 }
-
 
 .slider {
 }
@@ -448,13 +448,13 @@ h3 {
   float: left;
 }
 
-.sort-type ul {
+.sort-type-items {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.sort-type ul li {
+.sort-type-items li {
   display: inline;
   margin-right: 28px;
 }
@@ -516,57 +516,60 @@ h3 {
   margin: 0;
 }
 
-.form-color-list ul {
+.form-color-list {
   list-style: none;
   margin: 0;
   padding-left: 0;
   padding-top: 20px;
 }
 
-.form-color-list ul li {
-  position: relative;
+.form-color-list li {
   padding-bottom: 10px;
-}
-
-.form-color-list ul li::before {
-  content: "";
-  position: absolute;
-  width: 22px;
-  height: 22px;
-  background-color: #dbdbdb;
-  top: 5px;
 }
 
 .form-color-list label {
+  position: relative;
+  padding-bottom: 10px;
   padding-left: 40px;
 }
 
-.form-bluetooth-list ul {
+.form-color-list label::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background-color: #dbdbdb;
+  top: 0;
+  left: 0;
+}
+
+.form-bluetooth-list {
   list-style: none;
   margin: 0;
   padding-left: 0;
   padding-top: 20px;
 }
 
-.form-bluetooth-list ul li {
-  position: relative;
+.form-bluetooth-list li {
   padding-bottom: 10px;
 }
 
-.form-bluetooth-list ul li::before {
+.form-bluetooth label {
+  position: relative;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}
+
+.form-bluetooth-list label::before {
   content: "";
   position: absolute;
   width: 22px;
   height: 22px;
   background-color: #dbdbdb;
-  top: 5px;
+  top: 0;
+  left: 0;
   border-radius: 50%;
 }
-
-.form-bluetooth-list label {
-  padding-left: 40px;
-}
-
 
 .goods {
   float: left;
@@ -726,13 +729,13 @@ h3 {
   margin-left: 160px;
 }
 
-.footer-middle-nav ul{
+.middle-nav-items {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.footer-middle-nav ul li{
+.middle-nav-items li{
   display: inline;
   margin-right: 35px;
 }
