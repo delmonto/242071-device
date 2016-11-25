@@ -112,7 +112,7 @@
             <img src="img/popular-2.png" width="160" height="160" alt="Моноподы для селфи">
           </div>
           <div class="categories-item-text">
-            Моноподы для селфи
+            Моноподы<br> для селфи
           </div>
         </a>
       </div>
@@ -176,7 +176,7 @@
             Доставка
           </h2>
         <p class="services-desc-text">
-          Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.
+          Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо<br> заработаем, поднимая его на ваш этаж.
         </p>
       </div>
       <div class="services-desc-picture">
@@ -195,8 +195,8 @@
     <div class="about-contacts clearfix">
       <div class="about-us">
         <h2 class="content-header">О нас</h2>
-        <p class="about-us-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-        <p class="about-us-text">Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+        <p class="about-us-text">Огромный выбор гаджетов не оставит равнодушным гика,<br> который есть в каждом из нас.</p>
+        <p class="about-us-text-second">Мы можем доставить ваш товар в самые отдаленные точки<br> России! DEVICE работает со многими транспортными компаниями:</p>
         <ul class="about-us-list">
           <li>
             Деловые Линии
@@ -208,15 +208,38 @@
             ЖелДорЭкспедиция
           </li>
         </ul>
-        <a class="button" href="#">Подробнее о нас</a>
+        <a class="button more" href="#">Подробнее о нас</a>
       </div>
       <div class="contacts">
         <h2 class="content-header">Контакты</h2>
         <p class="about-us-text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-        <img class="map" src="img/map.jpg" width="560" height="222" alt="Карта">
-        <a class="button" href="#">Напишите нам</a>
+        <img class="map-img" src="img/map.jpg" width="560" height="222" alt="Карта">
+        <a class="button write-us-btn" href="#">Напишите нам</a>
       </div>
     </div>
+    <div class="map-popup">
+        <button class="close-btn form-btn" type="button"></button>
+        <img src="img/map-big.jpg" width="960" height="559" alt="Карта">
+    </div>
+    <form class="write-us" action="#" method="post">
+        <button class="close-btn form-btn" type="button"></button>
+        <div class="row clearfix">
+            <div class="column-left">
+                <label class="write-us-label" for="name">Ваше имя:</label>
+                <input class="write-us-name" id="name" type="text" name="name" placeholder="Представьтесь, пожалуйста">
+            </div>
+            <div class="column-right">
+                <label class="write-us-label" for="email">Ваш e-mail:</label>
+                <input class="write-us-email" id="email" type="email" name="e-mail" placeholder="Для отправки ответа">
+            </div>
+        </div>
+        <div class="row">
+            <label class="write-us-label" for="text">Текст письма:</label>
+            <textarea class="write-us-text" id="text" name="text" rows="7" cols="5" placeholder="В свободной форме"></textarea>
+        </div>
+        <button class="button form-btn" type="submit">Отправить</button>
+    </form>
+
   </div>
   <footer class="main-footer">
     <div class="container">
@@ -267,6 +290,7 @@
           </a>
         </div>
         <div class="footer-bottom-logo">
+          <a class="copy" href="https://htmlacademy.ru/"><img src="img/htmlacademy.png" alt="htmlAcademy" width="27" height="34"></a>
         </div>
       </section>
     </div>
